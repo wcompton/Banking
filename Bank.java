@@ -86,7 +86,7 @@ public class Bank {
 			loginScreen();
 		}
 	}
-
+	//creates the customer menu of transaction selections
 	public void viewCustomerMenu() {
 		// try {
 		int option;
@@ -111,7 +111,7 @@ public class Bank {
 			processCustomerMenu(option);
 		} while (option != 9);
 	}
-
+	//switch statement to process user selection from transaction menu
 	private void processCustomerMenu(int parseInt) {
 
 		switch (parseInt) {

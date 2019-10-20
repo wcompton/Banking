@@ -10,7 +10,7 @@ public class Checking extends Account {
 	public void setOverdraft(double overdraft) {
 		this.overdraft = overdraft;
 	}
-
+	//constructor for a checking object
 	public Checking(String accountNumber, double accountBalance) {
 		super(accountNumber, accountBalance);
 			}

@@ -29,7 +29,7 @@ public class Saving extends Account {
 	public void setServiceFee(double serviceFee) {
 		this.serviceFee = serviceFee;
 	}
-
+	//constructor for checking object
 	public Saving(String accountNum, double balance) {
 		super(accountNum, balance);
 	}

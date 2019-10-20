@@ -24,7 +24,7 @@ public abstract class Account {
 	public String toString() {
 		return accountNumber + " $" + accountBalance;
 	}
-
+	//constructor for an account object
 	public Account(String accountNumber, double accountBalance) {
 
 		this.accountNumber = accountNumber;

@@ -15,7 +15,7 @@ public class MyLogger {
 
 	static private FileHandler fileHTML;
 	static private Formatter formatterHTML;
-
+	//logger method
 	static public void setup() throws IOException {
 
 		// get the global logger to configure it

@@ -13,7 +13,7 @@ public class Customer {
 	private Saving saving = new Saving(randomNumberGenerator(), 500);
 	private Checking checking = new Checking(randomNumberGenerator(), 2500);
 	private Loan loan = new Loan(randomNumberGenerator(), -5000);
-
+	//This is the constructor for the customer
 	public Customer(String firstName, String lastName, String username, String password) {
 		super();
 		this.firstName = firstName;
@@ -27,27 +27,27 @@ public class Customer {
 		String random = "" + (int) ((Math.random() * 90000000) + 1000000);
 		return random;
 	}
-
+	// getter for the Loan object
 	public Loan getLoan() {
 		return loan;
 	}
-
+	// setter for the Loan object
 	public void setLoan(Loan loan) {
 		this.loan = loan;
 	}
-
+	// getter for the first name
 	public String getFirstName() {
 		return firstName;
 	}
-
+	// setter for the first name
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-
+	// getter for the last name
 	public String getLastName() {
 		return lastName;
 	}
-
+	// setter for the last name
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}

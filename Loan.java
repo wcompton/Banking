@@ -1,7 +1,7 @@
 package edu.gcu.bootcamp.cst135.milestone.model;
 
 public class Loan extends Account {
-
+	//constructor for a loan object
 	public Loan(String accountNumber, double accountBalance) {
 		super(accountNumber, accountBalance);
 			// TODO Auto-generated constructor stub
